@@ -503,14 +503,13 @@ async function exportToGoogleSheets() {
 
 // Định nghĩa các nhóm sản phẩm cố định
 const FIXED_PRODUCT_GROUPS = {
-  "(1) Me đất          :": ["da30f758-4776-452c-8514-f16eb4913dac","5e692d50-bdf0-41b4-b09e-1d707fda1591"],
-  "(2) Trúc Bách       :": ["01f77dac-6b8b-4593-ac92-01e9a67d2037","e1283536-7836-4ef0-bbe2-6c02c3e4710d"],
-  "(3) Xích Nam        :": ["8ae8a215-d4bc-4d40-a414-0b1577cc6931","cbd2c1d0-3f63-40fd-ad0c-38cb3a3be8c0"],
-  "(3) Salix           :": ["4e7ea434-d8a3-4095-b919-14d5e41bff47","580d383a-a35e-444c-9f05-4b7c6bb4dcb1"],
-  "(4) Giống Anh Đào   :": ["c9fc3940-0529-442a-95f4-ce261bd6305a"],
-  "(5) CG Xáo Tam Phân :": ["f161c450-91b0-4ed7-a431-75fc37e027e3"],
+  "(1) Me đất          :": ["eee4afc1-8ab5-4d5a-a4d3-667392b72604","78e0dcde-69f5-487c-9b23-2183a7f88ed1"],
+  "(2) Trúc Bách       :": ["06484062-be1e-4f4f-a6c5-a092f8de7070","85398240-56de-4671-b13a-1752ade888e6"],
+  "(3) Xích Nam        :": ["dc92c666-a01e-4cd8-8317-21272ce42d3c","fb99e9d0-9805-46a5-8a08-4fee944072f5"],
+  "(3) Salix           :": ["971e4a19-ab73-4315-a8a9-5a0b50935da4"],
+  "(4) Giống Anh Đào   :": ["53bc8e3a-98a2-4003-9b41-9530c3da8a72"],
+  "(5) CG Xáo Tam Phân :": ["ede8303d-8d87-4ab8-8c6b-f1b36d599051"],
 };
-
 function loadFixedGroups() {
   productGroups = { ...FIXED_PRODUCT_GROUPS };
   renderGroups();
